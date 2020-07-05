@@ -24,6 +24,18 @@ https://www.kaggle.com/donorschoose/io
 
 ## Model Solution
 
+### For each assignment, pre-processing has been done on text using methods like TFIDF. Below features then have been chose to train the model:
+
+Set 1: categorical, numerical features + project_title(BOW) + preprocessed_essay (BOW)
+Set 2: categorical, numerical features + project_title(TFIDF)+ preprocessed_essay (TFIDF)
+Set 3: categorical, numerical features + project_title(AVG W2V)+ preprocessed_essay (AVG W2V) Set 4: categorical, numerical features + project_title(TFIDF W2V)+ preprocessed_essay (TFIDF W2V)
+
+
+### Then Hyper paramter tuning to find best K
+Find the best hyper parameter which results in the maximum AUC (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/receiver-operating- characteristic-curve-roc-curve-and-auc-1/) value
+Find the best hyper paramter using k-fold cross validation (or) simple cross validation data
+Use gridsearch-cv or randomsearch-cv or write your own for loops to do this task
+
 
 
 ## Algorithms and Models
@@ -49,4 +61,11 @@ Assignment Name
 
 ##  Model Result Interpretation
 
-![Image](https://github.com/wwzjustin/Donor-Choose-Project-Data-Science/blob/master/summary.png)
+Plotted the performance of model both on train data and cross validation data for each hyper
+parameter, as shown in the figure.
+![Image](https://github.com/wwzjustin/Donor-Choose-Project-Data-Science/blob/master/train_test_auc.JPG)
+
+
+Based on the best parameter, the AUC of each model is listed:
+
+![Image](https://github.com/wwzjustin/Donor-Choose-Project-Data-Science/blob/master/summary.JPG)
