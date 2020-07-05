@@ -19,3 +19,34 @@ There are some other Kaggle competitions on the very same dataset :
 
 https://www.kaggle.com/c/donorschoose-application-screening
 https://www.kaggle.com/donorschoose/io
+
+
+
+## Model Solution
+
+
+
+## Algorithms and Models
+
+The repo listed both .ipython and .pdf file for each below assignment. The ending number of the file shows the assignment number. For example, Com2 = compulsary 2.
+
+Assignment Name
+1 Exploratory Data Analysis   - Com1
+2 T-SNE                       - Com2 
+3 KNN                         - Com3
+4 Naive Bayes                 - Com4
+5 Logistic Regression         - Com5
+6 SGD for Linear Regression   -SGD
+7 SVM                         -SVM
+8 Decision Tree               -DT
+9 Random Forest and GBDT       -GBDT
+10 K-means, Agglomerative, DBSCAN     - Kmeans
+11 Truncated SVD              -TruncateSVD
+
+
+
+
+
+##  Model Result Interpretation
+
+![Image](https://github.com/wwzjustin/Donor-Choose-Project-Data-Science/blob/master/summary.png)
